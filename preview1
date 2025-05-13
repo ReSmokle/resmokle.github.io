@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReSmokle - Reuse. Recycle. Reimagine.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="ReSmokle Geometric Elephant Logo">
+            </div>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#partners">Join Us</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>Reuse. Recycle. Reimagine.</h1>
+                <p>Turning trash into tools for change, ReSmokle collects, cleans, and repurposes used materials from the vaping and smoking industries—empowering a cleaner, greener future.</p>
+                <a href="#contact" class="cta-button">Come recycle with Resmokle</a>
+                <a href="#about" class="cta-button secondary">Learn More</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About ReSmokle</h2>
+            <p>At ReSmokle, we’re on a mission to transform how the vaping and smoking industries think about waste. Born out of a passion for sustainability and a frustration with the growing mountain of single-use packaging, ReSmokle offers a bold new solution: we collect, clean, and recycle used materials—giving them a second life as reusable products or raw materials for 3D printing. From our pipe-cleaning service to our plans for repurposed plastic goods, everything we do is rooted in environmental responsibility, innovation, and community impact. Headquartered in Cincinnati, Ohio, we’re proud to be the first to bring this kind of circular economy solution to our region—one item at a time.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="icon-cleaning.png" alt="Pipe Cleaning Icon" class="service-icon"> <h3>Pipe & Accessory Cleaning</h3>
+                    <p>Professional and eco-friendly cleaning services for your smoking accessories.</p>
+                </div>
+                <div class="service-item">
+                    <img src="icon-reusable-sales.png" alt="Reusable Sales Icon" class="service-icon"> <h3>Reusable Sales</h3>
+                    <p>Shop our collection of refurbished and sanitized pipes and accessories at great prices.</p>
+                </div>
+                <div class="service-item">
+                    <img src="icon-drop-off.png" alt="Drop-Off Collection Icon" class="service-icon"> <h3>Drop-Off Collection</h3>
+                    <p>Convenient drop-off points for your unwanted smoking accessories.</p>
+                </div>
+                <div class="service-item">
+                    <img src="icon-recycled-products.png" alt="Recycled Product Icon" class="service-icon"> <h3>Recycled Product Manufacturing</h3>
+                    <p>We transform collected materials into new, innovative products.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works">
+            <h2>How It Works</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <span>1</span>
+                    <h3>Collect</h3>
+                    <p>Drop off your used accessories at our designated locations or mail them in.</p>
+                </div>
+                <div class="step">
+                    <span>2</span>
+                    <h3>Clean & Sanitize</h3>
+                    <p>We meticulously clean and sanitize all collected items using eco-friendly methods.</p>
+                </div>
+                <div class="step">
+                    <span>3</span>
+                    <h3>Repurpose / Recycle</h3>
+                    <p>Items are either refurbished for resale or broken down for recycled product manufacturing.</p>
+                </div>
+                <div class="step">
+                    <span>4</span>
+                    <h3>Reuse / Reimagine</h3>
+                    <p>Give accessories a new life or discover unique products made from recycled materials.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="partners">
+            <h2>Join the Movement</h2>
+            <p>ReSmokle isn’t just a business—it’s a revolution in responsibility. We're inviting conscious consumers, visionary partners, bold sponsors, and forward-thinking investors to be part of something bigger. Together, we can reshape an overlooked waste stream into a force for environmental impact, community empowerment, and economic innovation. Whether you want to clean your pipe, support sustainable practices, co-create new recycling solutions, or back a first-to-market idea with massive growth potential—ReSmokle is your opportunity to act. Let’s Reuse. Recycle. ReImagine… and rebuild a cleaner future, one piece at a time.</p>
+            <h3>The Hidden Waste of Vaping and Smoking</h3>
+            <p>The vaping and smoking industries generate a disproportionately large waste stream relative to the size of their products. A single vape cartridge weighs less than half an ounce, yet it's often sold in packaging that weighs up to ten times more—made from mixed materials like hard plastic, metal, rubber, and cardboard that are rarely recycled. With over 9 million adult e-cigarette users in the U.S. alone, this adds up to millions of pounds of non-biodegradable waste annually. Most of it ends up in landfills—or worse, in waterways and neighborhoods—because standard recycling systems aren't equipped to handle these specialized materials. This growing imbalance between product and packaging creates an urgent environmental and waste management issue, one that ReSmokle is determined to solve through targeted collection, responsible processing, and meaningful reuse.</p>
+            <a href="#contact" class="cta-button">Join the Movement</a>
+        </section>
+
+        <section id="impact">
+            <h2>Our Environmental Impact</h2>
+            <ul>
+                <li>Statistic 1: e.g., X tons of waste diverted from landfills annually.</li>
+                <li>Statistic 2: e.g., Y% reduction in carbon footprint per repurposed item.</li>
+                <li>Statistic 3: e.g., Z number of accessories given a new life.</li>
+            </ul>
+            <blockquote>
+                "We champion a circular economy, turning today's waste into tomorrow's resources, fostering a cleaner planet for generations to come."
+            </blockquote>
+        </section>
+
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+                <input type="email" id="email" name="email" placeholder="Email address" required>
+                <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+            <div class="contact-details">
+                <p>Email: <a href="mailto:info@resmokle.com">info@resmokle.com</a></p> <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p> <p>Social Media:
+                    <a href="#" target="_blank">Facebook</a> | <a href="#" target="_blank">Instagram</a> | <a href="#" target="_blank">LinkedIn</a>   </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 GlowFlow LLC. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
